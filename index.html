@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Acciones m&oacute;viles</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#beep">Sonidos del dispositivo</a></li>
+            <li><a href="#shake">Vibraciones del dispositivo</a></li>
+			<li><a href="#alert">Alerta del dispositivo</a></li>
+            <li><a href="#confirm">Confirmaci&oacute;n del dispositivo</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Claudio Mauricio Cano Castro.</h4>
+	</div>
+</div>
+
+<div data-role="page" id="beep">
+	<div data-role="header">
+		<h1>Sonidos del dispositivo</h1>
+	</div>
+	<div data-role="listview">	
+		<li class="btn b1"> 1 Beep </li>
+        <li class="btn b2"> 2 Beeps </li>
+        <li class="btn b3"> 5 Beeps </li>		
+	</div>
+	<div data-role="footer">
+		<h4>Claudio Mauricio Cano Castro.</h4>
+	</div>
+</div>
+
+<div data-role="page" id="shake">
+	<div data-role="header">
+		<h1>Vibraciones del dispositivo</h1>
+	</div>
+	<div data-role="content">
+    	<ul data-role="controlgroup" data-type="vertical" class="localnav">
+    		<li class="btn v1"> <a data-role="button"> 1 vibraci&oacute;n </a></li>
+       		<li class="btn v2"> <a data-role="button"> 2 vibraciones </a></li>		
+        </ul>
+	</div>
+	<div data-role="footer">
+		<h4>Claudio Mauricio Cano Castro.</h4>
+	</div>
+</div>
+
+<div data-role="page" id="alert">
+	<div data-role="header">
+		<h1>Alerta del dispositivo</h1>
+	</div>
+	<div data-role="content">	
+		<div id="derecha" style="width:100%;height:200px;background-color:#06F;"></div>
+	</div>
+	<div data-role="footer">
+		<h4>Claudio Mauricio Cano Castro.</h4>
+	</div>
+</div>
+
+<div data-role="page" id="confirm">
+	<div data-role="header">
+		<h1>Confirmaci&oacute;n del dispositivo</h1>
+	</div>
+	<div data-role="content">	
+		<div id="izquierda" style="width:100%;height:200px;background-color:#060;"></div>	
+	</div>
+	<div data-role="footer">
+		<h4>Claudio Mauricio Cano Castro.</h4>
+	</div>
+</div>
+</body>
+</html>
