@@ -26,7 +26,7 @@ $(document).ready(function(e) {
 				break;
 			}
 			$("#derecha").swiperight(function(){
-				navigator.notification.alert("Desliz&oacute; a la derecha",function(){"Practica 1", "Aceptar"});
+				navigator.notification.alert("Deslizó a la derecha",function(){"Practica 1", "Aceptar"});
 			});
 		   $("#izquierda").swipeleft(function(){
 			  navigator.notification.confirm('¿Qué desea hacer?', function(opcion){
