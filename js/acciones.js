@@ -2,7 +2,7 @@
 $(document).ready(function(e) {
 	//alert("Listo")
 	document.addEventListener("deviceready",function(){
-		$(' .btn').tap(function(){
+		$('.btn').tap(function(){
 			var boton= (($(this).attr('class')).split(' '))[1];
 			
 //			alert(boton)
