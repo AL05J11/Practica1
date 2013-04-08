@@ -40,11 +40,11 @@ $(document).ready(function(e) {
 				  }//switch
 			  },"Práctica 1","Beep,Vibrar,Cancelar");//function confirm
 		   });//function swipe
-		   $('table td').eq(1).Text(device.name);
-		   $('table td').eq(3).Text(device.cordova);
-		   $('table td').eq(5).Text(device.platform);
-		   $('table td').eq(7).Text(device.version);
-		   $('table td').eq(9).Text(device.uuid);
+		   $('table td').eq(1).text(device.name);
+		   $('table td').eq(3).text(device.cordova);
+		   $('table td').eq(5).text(device.platform);
+		   $('table td').eq(7).text(device.version);
+		   $('table td').eq(9).text(device.uuid);
 	});//las celdas de la tabla se numeran de izq a der 0,1 abajo 2,3 y así sucesivamente
 	//tres formas de acceder al código: con clases y adentro id, o html o javascript.
 	},false);
